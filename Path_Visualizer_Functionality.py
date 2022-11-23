@@ -849,7 +849,6 @@ class Grid:
 
         # BFS ------------------------------
         if algorithmSelected == "BFS":
-            print("BFS")
             self.BFS(self.SDCoordinates[0][0], self.SDCoordinates[0][1], self.SDCoordinates[1][0], self.SDCoordinates[1][1],surface, buttonSelected)
 
         # Astar ----------------------------
